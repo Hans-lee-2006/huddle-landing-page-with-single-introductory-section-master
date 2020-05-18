@@ -28,7 +28,7 @@
     #huddle img {
       height: 12vmin;
     }
-    #row { width: 100% }
+    #row { width: 100% ; height: 80vh; position: relative;}
     img#main {
       width: 60%;
       float: left;
@@ -36,6 +36,16 @@
     #right { width: 40% }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    #icons {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .icon {
+
+    }
   </style>
 </head>
 <body>
@@ -51,12 +61,14 @@
     Create connections with your users as you engage in genuine discussion. 
 
     <br/>
-    
+
     <button>Register</button>
 
-    <i class="facebook f icon"></i>
-    <i class="twitter icon"></i>
-    <i class="instagram icon"></i>
+    <div id ="icons">
+      <i class="facebook f icon"></i>
+      <i class="twitter icon"></i>
+      <i class="instagram icon"></i>
+    </div>
     </p>
   </div>
   
@@ -64,7 +76,7 @@
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/Hans-lee-2006/huddle-landing-page-with-single-introductory-section-master">Hans-Lee & Bestian</a>.
     </p>
   </footer>
 </body>
