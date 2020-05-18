@@ -45,9 +45,10 @@
       right:3em;
     }
 
-    .icon {
-     border: 1px solid white;
-     padding: 1em;
+    .icon-wrapper {
+      display: inline-block;
+      border: 1px solid white;
+      padding: .3em;
     }
     h1{padding: 1em 0}
     button{
@@ -77,9 +78,15 @@
       <button>Register</button>
 
       <div id ="icons">
-        <i class="facebook f icon"></i>
-        <i class="twitter icon"></i>
-        <i class="instagram icon"></i>
+        <span class="icon-wrapper">
+          <i class="facebook f icon"></i>
+        </span>
+        <span class="icon-wrapper">
+          <i class="twitter icon"></i>
+        </span>
+        <span class="icon-wrapper">
+          <i class="instagram icon"></i>
+        </span>
       </div>
     </p>
   </div>
