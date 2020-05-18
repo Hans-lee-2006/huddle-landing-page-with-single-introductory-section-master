@@ -22,9 +22,18 @@
       font-weight: 400;
       color: white;
     }
-    #huddle img {
-      width: 
+    * {
+      box-sizing: border-box;
     }
+    #huddle img {
+      height: 12vmin;
+    }
+    #row { width: 100% }
+    img#main {
+      width: 60%;
+      float: left;
+    }
+    #right { width: 40% }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -33,20 +42,22 @@
   <div id = "huddle">
     <img src="./images/logo.svg"/>
   </div>
-  <div id = "left">
-    <img src="./images/illustration-mockups.svg">
-  </div>
-  <div id = "right">
-  Build The Community Your Fans Will Love
+  <div id="row">
+    <img id = "main" src="./images/illustration-mockups.svg">
+    <p>
+    <h1>Build The Community Your Fans Will Love</h1>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion. 
 
-  <i class="facebook f icon"></i>
-  <i class="twitter icon"></i>
-  <i class="instagram icon"></i>
+    <br/>
+    
+    <button>Register</button>
 
-  Register
+    <i class="facebook f icon"></i>
+    <i class="twitter icon"></i>
+    <i class="instagram icon"></i>
+    </p>
   </div>
   
  <img src=./design/desktop-design.jpg width = "100%">
